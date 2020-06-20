@@ -2,7 +2,11 @@
 
 An implementation of the A* algorithm for Ragnarok Online maps
 
-## How to use
+## Demo
+
+![Image of the demo](docs/demo.png)
+
+## Usage
 
 ```py
 from mapreader import read_map
@@ -22,3 +26,7 @@ route = _map.find_path(src = src, dst = dst)
 # Optional : view visualization of the path
 _map.show(src = src, dst = dst, path=route)
 ```
+
+## Author
+
+Kristian Espina
